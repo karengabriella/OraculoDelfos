@@ -1,3 +1,6 @@
+
+<img src="static/img/oraculo.png" alt="Oraculo" width="300"/>
+
 Oráculo de Delfos
 
 
