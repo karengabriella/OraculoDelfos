@@ -1,0 +1,355 @@
+* {
+   font-family: 'Roboto', sans-serif;
+  
+}
+
+body {
+
+    background-color: black;
+}
+
+i, em {
+    background: none; 
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background: none;
+    
+}
+
+.txt {
+    font-size: 23px;
+    background: none;
+}
+
+.form {
+    background: white;
+    height: 20px;
+    width: 90px;
+    margin-left: .1rem;
+    align-items: top;
+    justify-items: center;
+    display: inline-table;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+   
+  
+}
+
+.mini {
+    width: 60px;
+}
+
+img {
+
+ max-width: 100%;
+ height: 170px;
+ width: 160px;
+ border-radius: 10px;
+}
+
+.button{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#832eff,#fe4ff2);
+    border-radius: 15px;
+    padding: 0.4rem;
+    border: none;
+    
+   
+}
+
+.back{
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+}
+
+.button-md{
+    color: white;
+    display:inline-table ;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#832eff, white);
+    border-radius: 15px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+.button:hover{
+
+    background: #fe4ff2;
+}
+
+.nomes-deuses{
+
+    color: #cb489d;
+    background: #ffb225;
+    border-radius: 15px;
+    position: relative;
+    top: -10%; 
+    left: 4.3rem;
+    transform: translate(-50%, -50%); 
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    width: 165px;
+    
+
+}
+
+.nomes-deuses:hover{
+   background: #f8c059;
+}
+
+
+.content {
+    color: white;
+    text-align: center;
+    background: none;
+}
+
+ul.Deuses {
+    list-style: none;
+    color: #cb489d;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-left: -20px;
+   
+}
+
+
+
+
+ul.Deuses li {
+
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+    height: 160px;
+    width: 140px;
+    border-radius: 10px;
+    margin-left: -2px;
+   
+
+}
+
+.logo{
+    margin-left: 5px;
+    width: 400px;
+    height: 200px;
+
+}
+
+.line {
+    
+    border: none; 
+    height: 5px; 
+    background: linear-gradient(#832eff,#fe4ff2);
+    margin: 20px 0; 
+}
+
+.caixa {
+    position: relative;
+    top: -10%; 
+    left: 3.5rem;
+    transform: translate(-50%, -50%); 
+    padding: 10px 20px;
+    width: 45px;
+    height: 35px;
+    display: none;
+}
+
+.estrelas {
+
+    margin-top: -50rem;
+    position: relative;
+    transform: translate(-50%, -50%); 
+    width: 45x;
+    height: 30;
+    display: none;
+}
+
+
+.caixa-msg{
+   
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgba(73, 72, 72, 0.767);
+    
+  
+}
+
+.img-msg{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+.button-msg{
+
+   
+    color: #cb489d;
+    background: #ffb225;
+    top: 22.5rem;
+    margin-left: 8rem;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    height: 35px;
+    width: 165px;
+    
+    
+   
+}
+
+.text-msg{
+
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    text-align:justify;
+}
+
+.text-msg-tx{
+ 
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.dialog {
+
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    background: linear-gradient(#832eff,#fe4ff2);
+    color: white;
+    border: none;
+
+
+}
+
+dialog::backdrop {
+ background-color: rgba(0, 0, 0, 0.568);
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
+    .button{
+        margin-top: -30px;
+    }
+
+    ul.Deuses {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    .caixa {
+        margin-left: 19rem;
+        width: 65px;
+        height: 55px;
+        display: inline;
+    }
+    
+    .estrelas{
+        
+        width: 150px;
+        height: 150px;
+        display: inline;
+        margin-bottom: 10px;
+      
+    }
+   
+    .esquerda {
+
+    
+        margin-left: 20rem;
+        display: inline;
+    
+    }
+    
+    .direita {
+    
+    
+        margin-left: 75rem;
+        display: inline;
+    }
+    
+    .ladob {
+
+        left: 26rem;
+    }
+
+    .dialog {
+
+        width: 400px;
+        height: 250px;
+        margin-left: 34rem;
+
+    }
+
+
+    .caixa-msg{
+   
+        width: 820px;
+        height: 380px;
+        margin-left: 23rem;
+        
+
+    }
+
+
+    .back{
+      margin-left: 47rem;
+      margin-bottom: -1rem;
+      margin-top: 5px;
+    }
+    
+    .text-msg{
+
+        margin-top: -10rem;
+        margin-left: 15rem;
+    }
+    
+    .img-msg{
+        margin-top: 5rem;
+        width: 170px;
+        height: 180px;
+    }
+    
+    .button-msg{
+        margin-top: 2rem;
+        margin-left: 8.5rem;
+    }
+
+    .text-msg-tx {
+        margin-left: 15rem;
+        margin-right: 5rem;
+        text-align: justify;
+    }
+}
+
+

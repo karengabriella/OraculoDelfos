@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oráculo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='global.css') }}">
+</head>
+
+<body>
+
+  <section class="content">
+    <img class="logo" src="{{url_for('static', filename='/img/logo_deuses.png') }}" alt="logo">
+    <p>Receba uma mensagem enviada <br> pelo seu Deus Regente </p>
+   
+  </section>
+
+  <div class="line">
+    <img class="caixa" src="{{url_for('static', filename='/img/caixa.png') }}" alt="caixa">
+    <img class="caixa ladob" src="{{url_for('static', filename='/img/caixa.png') }}" alt="caixa">
+  </div>
+
+  <img class="estrelas direita" src="{{url_for('static', filename='/img/estrelas_deuses.png') }}" alt="estrelas">
+  <img class="estrelas esquerda" src="{{ url_for('static', filename='/img/estrelas_deuses.png') }}" alt="estrelas">
+  
+ 
+ <script src="{{url_for('static', filename='main.js') }}"></script>
+ <div class="caixa-msg">
+  <div id="deus"></div>
+ 
+ <script> 
+
+  let deus = pegarParametro('deus')
+  mostraDeus(deus);
+
+
+ </script>
+
+
+  <h1 class="text-msg">  Mensagem do seu Deus para você: </h1>
+  <p id="mensagem" class="text-msg-tx"><i> {{ mensagem }} </i></p>
+  <br></br>
+  <button id="back" class="button back" onclick="voltar()"> ⭠ </button>
+ 
+  
+  
+
+ </div>
+
+ <script src="{{url_for('static', filename='main.js') }}"></script>
+
+</body>
+</html>
