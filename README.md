@@ -1,2 +1,1 @@
-# oraculoDelfos
 Oráculo de Delfos
