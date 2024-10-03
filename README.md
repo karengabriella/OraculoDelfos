@@ -1,5 +1,8 @@
 Oráculo de Delfos
 
+
+[Vídeo Demonstrativo](https://youtu.be/r2CoSJzS_Ec)
+
 # Mensagens enviadas pelos Deuses
 
 Este projeto utiliza a API do Gemini para gerar mensagens inspiradoras baseadas em Deuses grecorromanos. O objetivo é criar um espaço onde as pessoas possam se inspirar nas palavras e sabedoria dos deuses da antiguidade de uma forma divertida.
@@ -26,10 +29,12 @@ Este projeto utiliza a API do Gemini para gerar mensagens inspiradoras baseadas 
    
     ```bash
     setx API_KEY "<YOUR_API_KEY>"
-      
+
 2. Clone o repositório para sua máquina local:
    ```bash
    git clone https://github.com/SeuUsuario/OraculoDelfos.git
+
+
 
 
    
