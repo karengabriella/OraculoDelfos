@@ -1,4 +1,4 @@
-O Oráculo de Delfos utiliza a API do Gemini para gerar mensagens inspiradas na mitologia grecorromana. Cada mensagem é baseada nas características de um deus regente.
+Oráculo de Delfos
 
 # Mensagens enviadas pelos Deuses
 
